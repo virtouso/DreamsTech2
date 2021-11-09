@@ -23,6 +23,9 @@
 //      auto label = Label::createWithSystemFont("Hello World", "Arial", 96);
 //      label->setAnchorPoint(cocos2d::Vec2(0.0, 0.0));
 //      this->addChild(label, 1);
- 
+
+
+
+
      return true;
  }

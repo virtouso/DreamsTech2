@@ -115,7 +115,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Projects/Active/DreamsTech/DreamsTech/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Projects/Active/DreamsTech/DreamsTech/build_win/bin/DreamsTech/Debug/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -279,7 +280,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Projects/Active/DreamsTech/DreamsTech/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Projects/Active/DreamsTech/DreamsTech/build_win/bin/DreamsTech/Release/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -443,7 +445,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Projects/Active/DreamsTech/DreamsTech/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Projects/Active/DreamsTech/DreamsTech/build_win/bin/DreamsTech/MinSizeRel/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -606,7 +609,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Projects/Active/DreamsTech/DreamsTech/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll D:/Projects/Active/DreamsTech/DreamsTech/build_win/bin/DreamsTech/RelWithDebInfo/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -797,6 +801,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GeneralSettings.cpp" />
+    <ClCompile Include="Int2.cpp" />
+    <ClCompile Include="UiManager.cpp" />
+    <ClCompile Include="UiManagerBase.cpp" />
     <ClInclude Include="D:\Projects\Active\DreamsTech\DreamsTech\Classes\AppDelegate.h" />
     <ClInclude Include="D:\Projects\Active\DreamsTech\DreamsTech\Classes\HelloWorldScene.h" />
     <ClInclude Include="D:\Projects\Active\DreamsTech\DreamsTech\proj.win32\main.h" />
@@ -804,6 +812,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\Projects\Active\DreamsTech\DreamsTech\Classes\AppDelegate.cpp" />
     <ClCompile Include="D:\Projects\Active\DreamsTech\DreamsTech\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="D:\Projects\Active\DreamsTech\DreamsTech\proj.win32\main.cpp" />
+    <ClInclude Include="GeneralSettings.h" />
+    <ClInclude Include="Int2.h" />
+    <ClInclude Include="UiManager.h" />
+    <ClInclude Include="UiManagerBase.h" />
     <ResourceCompile Include="D:\Projects\Active\DreamsTech\DreamsTech\proj.win32\game.rc" />
     <ClInclude Include="D:\Projects\Active\DreamsTech\DreamsTech\Resources\CloseNormal.png" />
     <ClInclude Include="D:\Projects\Active\DreamsTech\DreamsTech\Resources\CloseSelected.png" />
