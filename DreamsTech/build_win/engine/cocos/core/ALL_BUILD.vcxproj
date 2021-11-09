@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89F6C087-8A66-38CF-9BA2-6CF86E217C81}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Projects/Active/DreamsTech/DreamsTech/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/Active/DreamsTech/DreamsTech -BD:/Projects/Active/DreamsTech/DreamsTech/build_win --check-stamp-file D:/Projects/Active/DreamsTech/DreamsTech/build_win/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\2d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\3d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\audio\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\base\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\math\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\navmesh\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\network\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\physics\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\physics3d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\platform\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\renderer\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\ui\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Projects/Active/DreamsTech/DreamsTech/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/Active/DreamsTech/DreamsTech -BD:/Projects/Active/DreamsTech/DreamsTech/build_win --check-stamp-file D:/Projects/Active/DreamsTech/DreamsTech/build_win/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\2d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\3d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\audio\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\base\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\math\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\navmesh\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\network\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\physics\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\physics3d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\platform\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\renderer\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\ui\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Projects/Active/DreamsTech/DreamsTech/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/Active/DreamsTech/DreamsTech -BD:/Projects/Active/DreamsTech/DreamsTech/build_win --check-stamp-file D:/Projects/Active/DreamsTech/DreamsTech/build_win/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\2d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\3d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\audio\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\base\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\math\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\navmesh\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\network\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\physics\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\physics3d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\platform\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\renderer\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\ui\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Projects/Active/DreamsTech/DreamsTech/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/Active/DreamsTech/DreamsTech -BD:/Projects/Active/DreamsTech/DreamsTech/build_win --check-stamp-file D:/Projects/Active/DreamsTech/DreamsTech/build_win/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\2d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\3d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\audio\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\base\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\math\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\navmesh\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\network\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\physics\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\physics3d\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\platform\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\renderer\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\cocos\ui\CMakeLists.txt;D:\Projects\Active\DreamsTech\DreamsTech\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\ZERO_CHECK.vcxproj">
+      <Project>{03E5B004-BC7E-3200-BBCC-C86A4507A881}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{29AF2C66-0F47-359E-981D-D05522E0D060}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{451438C8-5947-3B63-A202-049C1E5E882E}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{154D7B04-44A9-3065-82D4-5BC0D938A318}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{C6DAE755-42E2-387D-8A77-8AC86F0AD737}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\external\md5\ext_md5.vcxproj">
+      <Project>{933827B5-A8F3-3278-94CF-7E25DC343922}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{867ED4E3-2E0E-3A45-8C04-BB299E47010E}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\external\recast\ext_recast.vcxproj">
+      <Project>{BD51BE90-0C15-33E3-B157-BDEC31AE78BF}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{36F679FF-2CC2-3FEC-B525-0A4017FE4AC5}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{95123F7B-A1C3-3A9B-B28F-D3E969174CD4}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{F1946872-4D7D-3DC3-A43C-77D4DF773988}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{32232613-DD09-316B-9511-F9F88714B5CF}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Active\DreamsTech\DreamsTech\build_win\engine\external\external.vcxproj">
+      <Project>{DCB26DB2-75D9-3FA2-85AA-347B6F3A5840}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
