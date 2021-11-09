@@ -22,7 +22,12 @@
     <ClCompile Include="UiManagerBase.cpp">
       <Filter>Source Files\Classes\UI\Manager\Base</Filter>
     </ClCompile>
-    <ClCompile Include="UiManager.cpp" />
+    <ClCompile Include="UiManager.cpp">
+      <Filter>Source Files\Classes\UI\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainEditorDependencyInjectionContainer.cpp">
+      <Filter>Source Files\Classes\BoostDependencyInjectionFrameWork\Container</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\Projects\Active\DreamsTech\DreamsTech\Classes\AppDelegate.h">
@@ -64,7 +69,15 @@
     <ClInclude Include="UiManagerBase.h">
       <Filter>Source Files\Classes\UI\Manager\Base</Filter>
     </ClInclude>
-    <ClInclude Include="UiManager.h" />
+    <ClInclude Include="UiManager.h">
+      <Filter>Source Files\Classes\UI\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MainEditorDependencyInjectionContainer.h">
+      <Filter>Source Files\Classes\BoostDependencyInjectionFrameWork\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="di.hpp">
+      <Filter>Source Files\Classes\BoostDependencyInjectionFrameWork</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\Projects\Active\DreamsTech\DreamsTech\CMakeLists.txt" />
@@ -110,6 +123,12 @@
     </Filter>
     <Filter Include="Source Files\Classes\UI\Manager\Base">
       <UniqueIdentifier>{776ea27d-ff94-4cf0-a31c-5b87a1eb6ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\BoostDependencyInjectionFrameWork">
+      <UniqueIdentifier>{335accef-3b4c-46c0-b2a9-7ac2e77d4897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\BoostDependencyInjectionFrameWork\Container">
+      <UniqueIdentifier>{12d8f985-0bff-4213-8441-9120e2de3dbc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
