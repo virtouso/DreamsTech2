@@ -31,6 +31,15 @@
     <ClCompile Include="MvvmModel.cpp">
       <Filter>Source Files\Classes\MVVM</Filter>
     </ClCompile>
+    <ClCompile Include="AdvancedLogger.cpp">
+      <Filter>Source Files\Classes\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerChannels.h">
+      <Filter>Source Files\Classes\Logger\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ILogger.cpp">
+      <Filter>Source Files\Classes\Logger\Interface</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\Projects\Active\DreamsTech\DreamsTech\Classes\AppDelegate.h">
@@ -83,6 +92,12 @@
     </ClInclude>
     <ClInclude Include="MvvmModel.h">
       <Filter>Source Files\Classes\MVVM</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedLogger.h">
+      <Filter>Source Files\Classes\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="ILogger.h">
+      <Filter>Source Files\Classes\Logger\Interface</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +153,15 @@
     </Filter>
     <Filter Include="Source Files\Classes\MVVM">
       <UniqueIdentifier>{710aeb3a-2c4f-4f19-a704-089e7daff4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Logger">
+      <UniqueIdentifier>{62e313ae-e27e-44ea-aaf0-67817619a52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Logger\Data">
+      <UniqueIdentifier>{41c33881-bd00-43c8-bc2f-45accec5427e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Logger\Interface">
+      <UniqueIdentifier>{4a0cde2a-6914-4686-aacd-c9aa92d0b280}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

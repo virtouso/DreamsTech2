@@ -6,5 +6,9 @@
 {
  public:
 	void Init(HelloWorld* helloWorld) override;
+
+	UiManager();
+	~UiManager();
+
 };
 

@@ -6,5 +6,8 @@ class UiManagerBase
 public :
 	virtual  void Init(HelloWorld* helloWorld);
 
+	UiManagerBase() ;
+	~UiManagerBase();
+
 };
 

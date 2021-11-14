@@ -801,12 +801,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AdvancedLogger.cpp" />
     <ClCompile Include="GeneralSettings.cpp" />
+    <ClCompile Include="ILogger.cpp" />
     <ClCompile Include="Int2.cpp" />
+    <ClCompile Include="LoggerChannels.h" />
     <ClCompile Include="MainEditorDependencyInjectionContainer.cpp" />
     <ClCompile Include="MvvmModel.cpp" />
     <ClCompile Include="UiManager.cpp" />
     <ClCompile Include="UiManagerBase.cpp" />
+    <ClInclude Include="AdvancedLogger.h" />
     <ClInclude Include="D:\Projects\Active\DreamsTech\DreamsTech\Classes\AppDelegate.h" />
     <ClInclude Include="D:\Projects\Active\DreamsTech\DreamsTech\Classes\HelloWorldScene.h" />
     <ClInclude Include="D:\Projects\Active\DreamsTech\DreamsTech\proj.win32\main.h" />
@@ -816,6 +820,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\Projects\Active\DreamsTech\DreamsTech\proj.win32\main.cpp" />
     <ClInclude Include="di.hpp" />
     <ClInclude Include="GeneralSettings.h" />
+    <ClInclude Include="ILogger.h" />
     <ClInclude Include="Int2.h" />
     <ClInclude Include="MainEditorDependencyInjectionContainer.h" />
     <ClInclude Include="MvvmModel.h" />

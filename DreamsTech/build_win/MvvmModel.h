@@ -12,13 +12,16 @@ class MvvmModel
 {
 
 private:
-		T  Data;
+	T  Data;
+	std::vector<void(*)(T input)> Actions;
 
 
 public:
-	
+
 	void UpdateValue(const   T* value);
-	std::vector<void(*)(int input)> Action;
+	void BindEvent(void(*action)(T) );
+	void UnBindEvent(void(*action)(T));
+
 
 
 };

@@ -4,6 +4,19 @@
 #include "2d/CCLabel.h"
 
 
+
+
+
+
+
+UiManager::UiManager():UiManagerBase()
+{
+	
+}
+
+
+
+
 void UiManager::Init(HelloWorld*  helloWorld)
 {
 
