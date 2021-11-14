@@ -28,6 +28,9 @@
     <ClCompile Include="MainEditorDependencyInjectionContainer.cpp">
       <Filter>Source Files\Classes\BoostDependencyInjectionFrameWork\Container</Filter>
     </ClCompile>
+    <ClCompile Include="MvvmModel.cpp">
+      <Filter>Source Files\Classes\MVVM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\Projects\Active\DreamsTech\DreamsTech\Classes\AppDelegate.h">
@@ -77,6 +80,9 @@
     </ClInclude>
     <ClInclude Include="di.hpp">
       <Filter>Source Files\Classes\BoostDependencyInjectionFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="MvvmModel.h">
+      <Filter>Source Files\Classes\MVVM</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +135,9 @@
     </Filter>
     <Filter Include="Source Files\Classes\BoostDependencyInjectionFrameWork\Container">
       <UniqueIdentifier>{12d8f985-0bff-4213-8441-9120e2de3dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\MVVM">
+      <UniqueIdentifier>{710aeb3a-2c4f-4f19-a704-089e7daff4ae}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
