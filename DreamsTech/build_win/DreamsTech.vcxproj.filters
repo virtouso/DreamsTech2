@@ -163,5 +163,8 @@
     <Filter Include="Source Files\Classes\Logger\Interface">
       <UniqueIdentifier>{4a0cde2a-6914-4686-aacd-c9aa92d0b280}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Classes\UI\Elements">
+      <UniqueIdentifier>{8054257a-44b3-4ff4-937f-1824bc2f0f0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
