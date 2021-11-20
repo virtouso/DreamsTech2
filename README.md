@@ -3,32 +3,32 @@
 
 
 
-###General
+### General
 
 
 
 
-###Features
+### Features
 
 
-####Simple Editor
+#### Simple Editor
 
 
-####Component System
+#### Component System
 
-####Serialization
+#### Serialization
 
 
-####Virtouso Language
+#### Virtouso Language
 
 its a simple scripting language i just added to the engine that can handle simple instructions. the compiler/interpreter is written in c++ and does multi steps:
 
--Lexical Analysis
+- Lexical Analysis
 
--Syntax Analysis
+- Syntax Analysis
 
--Type Checking
+- Type Checking
 
--Intermediate Code Generation
+- Intermediate Code Generation
 
--Register Allocation, Machine Code Generation, Assembly And Linking(Backend Part)
+- Register Allocation, Machine Code Generation, Assembly And Linking(Backend Part)
